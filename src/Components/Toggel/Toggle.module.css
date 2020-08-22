@@ -1,0 +1,43 @@
+
+
+.Toggle{
+    display: block;
+    outline: none;
+    position: relative;
+    height: 50px;
+    width: 90px;
+    margin-top:20px;
+    appearance: none;
+    box-shadow: 5px 5px 5px rgba(80, 78, 78, 0.2) ,
+                -5px -5px 10px rgb(255, 255,255,0.5),
+                5px 5px 5px rgba(80, 78, 78, 0.2) inset ,
+                -5px -5px 10px rgb(255, 255,255,0.5) inset;
+    border:5px solid #ececec;
+    border-radius: 30px;
+    background-color: #ececec;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: 20px;
+}
+
+.Toggle:before
+{
+    content:"";
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background: #ececec;
+    border-radius: 50%;
+    box-shadow: 5px 5px 5px rgba(80, 78, 78, 0.2) ,
+    -5px -5px 10px rgb(255, 255,255,0.5);
+  
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    left:0px;
+    transition: all 0.2s ease-in;
+}
+
+.Toggle:checked::before
+{
+    left: 48px;
+}

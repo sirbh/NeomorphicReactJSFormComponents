@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+
+/* .Label{
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    color: cornflowerblue;
+    font-weight: bolder;
+    margin:auto;
+} */
+.Input{
+    display: block;
+    height: 40px;
+    width: 300px;
+    appearance: none;
+    box-shadow: 5px 5px 5px rgba(80, 78, 78, 0.2) ,-5px -5px 10px rgb(255, 255,255,0.5);
+    background-color: #ececec;
+    border-radius: 25px;
+    border: none;
+    outline: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    padding-left: 20px;
+    font-weight: bold;
+    color:black;
+    margin-top: 20px;
+}
+.Input::placeholder{
+    font-size: 15px;
+    margin-bottom: 10px;
+    opacity: 0.5;
+}
+
+.Input:focus{
+    box-shadow: 5px 5px 5px rgba(80, 78, 78, 0.2) inset,-5px -5px 10px rgb(255, 255,255,0.5) inset;
+}

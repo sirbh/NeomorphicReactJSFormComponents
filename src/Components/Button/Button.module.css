@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+.Button
+{
+    margin-top:20px;
+    outline: none;
+    height: 40px;
+    width: 90px;
+    appearance: none;
+    box-shadow: 5px 5px 5px rgba(80, 78, 78, 0.2) ,-5px -5px 10px rgb(255, 255,255,0.5);
+    border-radius: 25px;
+    border:1px solid #ececec;
+    font-family:'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    color: gray;
+}
+
+.Button:active
+{
+    box-shadow: 5px 5px 5px rgba(80, 78, 78, 0.2) inset,
+                5px 5px 5px rgba(80, 78, 78, 0.2) ,
+                -5px -5px 10px rgb(255, 255,255,0.5) inset,
+                -5px -5px 10px rgb(255, 255,255,0.5);
+}

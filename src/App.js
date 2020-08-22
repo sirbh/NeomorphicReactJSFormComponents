@@ -1,24 +1,24 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
-
+import FormElement from '../src/Components/FormElement'
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="Form">
+      <div className='FormData'>
+         <FormElement type="Input"></FormElement>
+         <FormElement type="Input"></FormElement>
+         <FormElement type="Button"></FormElement>
+         <div className='TextArea'>
+            <FormElement type="TextArea"></FormElement>
+            <FormElement type="Toggle"></FormElement>
+         </div>
+         <FormElement type="Radio"></FormElement>
+         <FormElement type="Radio"></FormElement>
+         <div className='TextArea'>
+            <FormElement type="CheckButton"></FormElement>
+            <FormElement type="CheckButton"></FormElement>
+         </div>
+      </div>
     </div>
   );
 }

@@ -1,0 +1,15 @@
+.TextArea
+{
+    display: block;
+    appearance: none;
+    box-shadow: 5px 5px 5px rgba(80, 78, 78, 0.2) ,-5px -5px 10px rgb(255, 255,255,0.5), 5px 5px 5px rgba(80, 78, 78, 0.2) inset ,-5px -5px 10px rgb(255, 255,255,0.5) inset;
+    background-color: #ececec;
+    border-radius: 25px;
+    border: none;
+    outline: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    padding: 10px 20px;
+    margin-top: 20px;
+    border: 1px solid #ececee;
+}
