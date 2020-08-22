@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/NeomorphicReactJSFormComponents/static/css/main.ffd5090c.chunk.css",
+    "main.js": "/NeomorphicReactJSFormComponents/static/js/main.b6aff87c.chunk.js",
+    "main.js.map": "/NeomorphicReactJSFormComponents/static/js/main.b6aff87c.chunk.js.map",
+    "runtime-main.js": "/NeomorphicReactJSFormComponents/static/js/runtime-main.79c6f3a0.js",
+    "runtime-main.js.map": "/NeomorphicReactJSFormComponents/static/js/runtime-main.79c6f3a0.js.map",
+    "static/js/2.59e65a06.chunk.js": "/NeomorphicReactJSFormComponents/static/js/2.59e65a06.chunk.js",
+    "static/js/2.59e65a06.chunk.js.map": "/NeomorphicReactJSFormComponents/static/js/2.59e65a06.chunk.js.map",
+    "index.html": "/NeomorphicReactJSFormComponents/index.html",
+    "precache-manifest.5a3f14a5730cd8a5f33332d13beaf37e.js": "/NeomorphicReactJSFormComponents/precache-manifest.5a3f14a5730cd8a5f33332d13beaf37e.js",
+    "service-worker.js": "/NeomorphicReactJSFormComponents/service-worker.js",
+    "static/css/main.ffd5090c.chunk.css.map": "/NeomorphicReactJSFormComponents/static/css/main.ffd5090c.chunk.css.map",
+    "static/js/2.59e65a06.chunk.js.LICENSE.txt": "/NeomorphicReactJSFormComponents/static/js/2.59e65a06.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.79c6f3a0.js",
+    "static/js/2.59e65a06.chunk.js",
+    "static/css/main.ffd5090c.chunk.css",
+    "static/js/main.b6aff87c.chunk.js"
+  ]
+}
